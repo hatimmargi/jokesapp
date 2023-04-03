@@ -5,13 +5,13 @@ body {
 place-content: center;
 background-color: rgb(34, 34, 34);
 }
-.joke {
+/* .joke {
 text-align: center;
 margin: 0 5vh;
 
 margin-bottom: 1em;
 padding: 2em 4em;
-/* background-color: rgb(0, 253, 181); */
+background-color: rgb(0, 253, 181);
 color: white;
 border-bottom: 2px solid rgb(20, 184, 80);
 border-radius: 10px;
@@ -23,4 +23,37 @@ border-radius: 10px;
 }
 .joke p {
   font-weight: 500;
+} */
+.container {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  width: 100vw;
+  background: url(../public/imgs/photo_2023-04-04_00-48-42.jpg), linear-gradient(0deg, rgba(40,17,219,1) 0%, rgba(255,5,208,1) 100%);
+  background-blend-mode:overlay;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.container h1 {
+  font-family: Delicious Handrawn;
+  color: white;
+}
+.container p {
+  font-family: Delicious Handrawn;
+  color: white;
+  font-size: 1.2em;
+}
+.container .hbd {
+  max-width: 70vw;
+}
+.container button {
+  cursor: pointer;
+  font-family: Delicious Handrawn;
+  font-weight: bold;
+  background-color: rgba(255,5,208,1);
+  font-size: 1.2em;
+  border: none;
+  border-radius: .5em;
+  padding: .5em 1em;
+  color: white;
 }
